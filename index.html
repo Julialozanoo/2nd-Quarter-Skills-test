@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>School Clubs</title>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #dfdde6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            height: 100vh;
+
+        }
+
+        .card {
+            background-color: rgb(208, 206, 212);
+            padding: 50px;
+            border-radius: 50px;
+            box-shadow: 0 5px 25px rgba(0,70,50,0.2);
+            text-align: center;
+            width: 500px;
+        }
+
+        select {
+            width: 80%;
+            padding: 12px;
+            border-radius: 8px;
+            border: 2px solid #dedce7;
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+
+        button {
+            background-color: #030304;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #bdbdc7;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h2>School Clubs</h2>
+
+    <p>Select a club:</p>
+
+    <select>
+        <option>Science Club</option>
+        <option>Art Club</option>
+        <option>Math Club</option>
+    </select>
+
+    <br>
+    <button>Show Club Info</button>
+</div>
+
+</body>
+</html>
